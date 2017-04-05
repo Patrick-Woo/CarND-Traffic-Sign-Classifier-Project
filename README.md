@@ -205,19 +205,24 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+
 I tried architectures like vgg 16 and Inception version 4 because they are notable and have reached a high performance in ImageNet.
 
 * What were some problems with the initial architecture?
+
 They are too deep and need a long time to train the whole model.I only has 43 classes not 1001 classes. Maybe we do not need so complicated model to address our traffic signs classification. Ultimately, I gave up and chose this modifed lenet model.
 
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to over fitting or under fitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+
 I used the modified lenet structure with 3 conv layers and 3 fc layers as they are easy enough to classify the traffic signs.
 In terms of the hyper parameters tuning, please refer to the hyper parameter section above.
 
 * Which parameters were tuned? How were they adjusted and why?
+
 In terms of the hyper parameters tuning, please refer to the hyper parameter section above.
 
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+
 Batch norm ont only prevents gradient vanishment, but also tackle the problem of overfitting. Also, it can speed up the training process as data from every layer has the same scale.
 Drop out use the bagging method to tackle the overfitting, while early stop saves the traing time as well as prevent overfitting.
 
@@ -239,6 +244,7 @@ The limit 30km/h image might be difficult to classify because it has other objec
 The code for making predictions on my final model is located in the 145th cell of the Ipython notebook.
 
 Here are the results of the prediction:
+
 ![alt text][image17]
 ![alt text][image18]
 
