@@ -18,13 +18,13 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/after_brightness.JPG "after_brightness"
-[image3]: ./examples/after_rotation.JPG "after_rotation"
-[image4]: ./examples/after_affine.JPG "after_affine"
+[image2]: ./examples/after_brightness.jpg "after_brightness"
+[image3]: ./examples/after_rotation.jpg "after_rotation"
+[image4]: ./examples/after_affine.jpg "after_affine"
 [image5]: ./examples/normalization.JPG "normalization"
 [image6]: ./examples/visualization_add.jpg "visualization with final train data"
-[image7]: ./examples/20.JPG "limit 20km/h"
-[image8]: ./examples/20_aug.JPG "limit 20km/h augmentation"
+[image7]: ./examples/20.jpg "limit 20km/h"
+[image8]: ./examples/20_aug.jpg "limit 20km/h augmentation"
 [image9]: ./genman_traffic_signs_unseen/test1.jpg 
 [image10]: ./genman_traffic_signs_unseen/test2.jpg 
 [image11]: ./genman_traffic_signs_unseen/test3.jpg 
@@ -33,12 +33,12 @@ The goals / steps of this project are the following:
 [image14]: ./genman_traffic_signs_unseen/test6.jpg 
 [image15]: ./genman_traffic_signs_unseen/test7.jpg 
 [image16]: ./genman_traffic_signs_unseen/test8.jpg 
-[image17]: ./examples/unseen_1.JPG 
-[image18]: ./examples/unseen_2.JPG 
-[image19]: ./examples/feature_map.JPG 
-[image20]: ./examples/feature_map_1.JPG 
-[image21]: ./examples/feature_map_2.JPG 
-[image22]: ./examples/feature_map_3.JPG 
+[image17]: ./examples/unseen_1.jpg 
+[image18]: ./examples/unseen_2.jpg 
+[image19]: ./examples/feature_map.jpg 
+[image20]: ./examples/feature_map_1.jpg 
+[image21]: ./examples/feature_map_2.jpg 
+[image22]: ./examples/feature_map_3.jpg 
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -91,7 +91,6 @@ Here is an example of a traffic sign image before and after preprocessing.
 ![alt text][image4]
 
 As a last step, I normalized the image data because this can make the gradient descent process faster.
-
 ![alt text][image5]
 
 
